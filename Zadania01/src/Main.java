@@ -1,3 +1,5 @@
+import jdk.swing.interop.SwingInterOpUtils;
+
 void main() {
 
         String imie1 = "Ania";
@@ -18,8 +20,31 @@ void main() {
         double stopnie = stopniesc.nextDouble();
         double farenhajty = (1.8*stopnie)+32.0;
 
-        System.out.println("To " + farenhajty + "farenhajtów");
-    
+        System.out.println("To " + farenhajty + " farenhajtów");
 
+        System.out.println("Podaj bok a: ");
+        Scanner bokasc =  new Scanner(System.in);
+        double boka = bokasc.nextDouble();
+        System.out.println("Podaj bok b: ");
+        Scanner bokbsc =  new Scanner(System.in);
+        double bokb = bokasc.nextDouble();
+        System.out.println("Podaj bok c: ");
+        Scanner bokcsc =  new Scanner(System.in);
+        double bokc = bokasc.nextDouble();
 
+        System.out.println("Obwód trójkąta: " + (boka+bokb+bokc));
+
+        System.out.println("Podaj 1 slowo: ");
+        Scanner slowo1sc =  new Scanner(System.in);
+        String slowo1 = slowo1sc.next();
+        System.out.println("Podaj 2 slowo: ");
+        Scanner slowo2sc =  new Scanner(System.in);
+        String slowo2 = slowo2sc.next();
+        System.out.println("Podaj 3 slowo: ");
+        Scanner slowo3sc =  new Scanner(System.in);
+        String slowo3 = slowo3sc.next();
+
+        System.out.println(slowo3 + ", " + slowo2 + ", " + slowo1);
+
+        
 }
