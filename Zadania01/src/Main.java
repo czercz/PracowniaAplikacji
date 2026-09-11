@@ -63,5 +63,12 @@ void main() {
 
         System.out.println("Wyraz z dużych literek: " + wyraz2.toUpperCase());
 
-        
+
+        System.out.println("Podaj promien kola: ");
+        Scanner promiensc =  new Scanner(System.in);
+        int promien = promiensc.nextInt();
+
+        double pole = Math.PI * Math.pow(promien, 2);
+
+        System.out.println("Pole koła wynosi: " +pole);
 }
