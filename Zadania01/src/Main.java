@@ -8,6 +8,8 @@ void main() {
         System.out.println(imie3);
 
         String mojeimie = "Adam";
-        int
+        int rokurodzenia = 2007;
+        double liczba = 0.66;
+        
 
 }
