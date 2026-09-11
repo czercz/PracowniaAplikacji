@@ -56,4 +56,12 @@ void main() {
         int y = 2;
         double wynik = (double) x / y;
         System.out.println(wynik);
+
+        System.out.println("Podaj wyraz małymi literkami:  ");
+        Scanner wyraz2sc =  new Scanner(System.in);
+        String wyraz2 = wyraz2sc.next();
+
+        System.out.println("Wyraz z dużych literek: " + wyraz2.toUpperCase());
+
+        
 }
