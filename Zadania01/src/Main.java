@@ -51,4 +51,9 @@ void main() {
         String wyraz = wyrazsc.next();
 
         System.out.println(wyraz.length());
+
+        int x = 5;
+        int y = 2;
+        double wynik = (double) x / y;
+        System.out.println(wynik);
 }
