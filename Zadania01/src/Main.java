@@ -46,5 +46,9 @@ void main() {
 
         System.out.println(slowo3 + ", " + slowo2 + ", " + slowo1);
 
-        
+        System.out.println("Podaj wyraz:  ");
+        Scanner wyrazsc =  new Scanner(System.in);
+        String wyraz = wyrazsc.next();
+
+        System.out.println(wyraz.length());
 }
