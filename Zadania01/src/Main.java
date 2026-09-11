@@ -12,4 +12,14 @@ void main() {
         double liczba = 0.66;
         System.out.println("Mam na imie "+mojeimie+", mam " + (2026-rokurodzenia) + " lat i będę pisać maturę za " + liczba + " roku");
 
+        System.out.println("Podaj stopinie na dworze: ");
+        Scanner stopniesc =  new Scanner(System.in);
+
+        double stopnie = stopniesc.nextDouble();
+        double farenhajty = (1.8*stopnie)+32.0;
+
+        System.out.println("To " + farenhajty + "farenhajtów");
+    
+
+
 }
