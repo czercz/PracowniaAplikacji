@@ -139,7 +139,7 @@ void main() {
         for (int j = 1; j <= liczby6[i]; j++) {
             silnia6 = silnia6 * j;
         }
-        
+
         System.out.println("Silnia liczby " + liczby6[i] + " wynosi: " + silnia6);
     }
 
